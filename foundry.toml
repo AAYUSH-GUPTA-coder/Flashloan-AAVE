@@ -7,10 +7,5 @@ optimizer = true
 optimizer_runs = 200
 remappings = [
     '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts',
-    '@lido-dao/contracts/=lib/lido-dao/contracts',
-    '@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts',
-    "@prb/math/=node_modules/@prb/math",
-    "@aave/contracts/=lib/aave-v3-core/contracts",
-    "@uniswap/v3-periphery/contracts/=lib/v3-periphery/contracts",
-    "@uniswap/v3-core/contracts/=lib/v3-core/contracts"
+    "@aave/contracts/=lib/aave-v3-core/contracts"
 ]
