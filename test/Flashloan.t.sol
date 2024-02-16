@@ -20,7 +20,7 @@ contract TestFlashLoan is Test {
     function testDeposit() public {
         address user = address(123);
         // minting 2 WETH
-        deal(address(weth), user, 2 * 1e18, true);
+        deal(address(weth), user, 2 * 1e18, false);
 
         vm.startPrank(user);
         // transfer 1 WETH to the flashLoan contract to pay the premium
